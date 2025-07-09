@@ -10,7 +10,10 @@ const About = () => {
             <Title desc="Get To Know More" title="About me" />
 
             <Container>
-                <div className="grid grid-cols-1 md:grid-cols-2 items-center px-10">
+                <div
+                    data-aos="zoom-in"
+                    className="grid grid-cols-1 md:grid-cols-2 items-center px-10"
+                >
                     <div className="relative z-10 md:mb-16 drop-shadow-md mx-auto">
                         <Image
                             src="/images/avatar.png"
@@ -40,7 +43,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="px-10">
+                <div data-aos="zoom-in-up" className="px-10">
                     <h4 className="relative font-bold tracking-wide text-white80 inline-block pb-1 text-lg mt-10">
                         Skills
                         <span className="absolute left-0 bottom-0 w-[25%] h-[2px] bg-white80"></span>

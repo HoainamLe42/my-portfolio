@@ -42,8 +42,13 @@ const Header = () => {
             } transition-all duration-[400ms] bg-primary`}
         >
             <Container>
-                <div className="flex justify-between items-center px-4">
-                    <h3 className="font-semibold">HoaiNam Le</h3>
+                <div
+                    data-aos="fade-down"
+                    className="flex justify-between items-center px-4"
+                >
+                    <h3 className="font-semibold">
+                        <a href={'#home'}>HoaiNam Le</a>
+                    </h3>
 
                     <nav className="hidden md:block">
                         <ul className="flex gap-8">

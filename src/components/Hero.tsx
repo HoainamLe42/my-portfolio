@@ -9,7 +9,10 @@ const Hero = () => {
             className="relative min-h-screen flex flex-col items-center bg-primary"
         >
             <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center gap-3 md:gap-34">
-                <div className="relative z-10 md:mb-16 drop-shadow-md">
+                <div
+                    data-aos="zoom-in-right"
+                    className="relative z-10 md:mb-16 drop-shadow-md"
+                >
                     <Image
                         src="/images/avatar.png"
                         alt="Avatar"
@@ -19,7 +22,7 @@ const Hero = () => {
                         className="object-cover h-[300px] md:h-[500px] w-auto md:w-auto fade-bottom"
                     />
                 </div>
-                <div className="text-center mt-10">
+                <div data-aos="zoom-in-left" className="text-center mt-10">
                     <p className="font-bold text-white80 mb-3 md:mb-7">
                         Hello, I&apos;m
                     </p>

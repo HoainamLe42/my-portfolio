@@ -17,6 +17,7 @@ const Project = () => {
                         {projectsData.map((item) => (
                             <li
                                 key={item.id}
+                                data-aos="zoom-in"
                                 className="relative bg-primary p-6 md:p-10 flex flex-col cursor-pointer hover:-translate-y-2 transition-all duration-300 group"
                             >
                                 <h3 className="text-2xl md:text-3xl mb-2">
@@ -45,12 +46,20 @@ const Project = () => {
                                         </p>
                                         <div className="relative w-full inset-0 flex items-end justify-center gap-5 mb-20">
                                             <button className="w-[160px] py-3 px-8 rounded-[99px] border border-gray-400 cursor-pointer hover:bg-gray-400 hover:text-black shadow-2xl">
-                                                <Link href={item.pathGithub}>
+                                                <Link
+                                                    href={item.pathGithub}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
                                                     Github
                                                 </Link>
                                             </button>
                                             <button className="w-[160px] py-3 px-8 rounded-[99px] border border-gray-400 cursor-pointer hover:bg-gray-400 hover:text-black">
-                                                <Link href={item.pathLiveDemo}>
+                                                <Link
+                                                    href={item.pathLiveDemo}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
                                                     Live Demo
                                                 </Link>
                                             </button>

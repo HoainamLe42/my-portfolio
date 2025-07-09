@@ -68,7 +68,7 @@ const Contact = () => {
             className="min-h-screen pt-7 text-center flex flex-col justify-between"
         >
             <Container>
-                <div>
+                <div data-aos="zoom-in">
                     <Title desc="Get In Touch" title="Contact me" />
 
                     <form
