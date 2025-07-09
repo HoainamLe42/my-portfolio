@@ -4,6 +4,7 @@ import Container from './Container';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import Title from './Title';
+import Link from 'next/link';
 
 const Project = () => {
     return (
@@ -21,7 +22,9 @@ const Project = () => {
                                 <h3 className="text-2xl md:text-3xl mb-2">
                                     {item.title}
                                 </h3>
-                                <p className="text-white80 mb-4">{item.desc}</p>
+                                <p className="mb-4 text-lg">
+                                    Project {item.id}
+                                </p>
                                 <ArrowRight
                                     className="absolute top-10 right-5 text-secondary"
                                     size={32}
@@ -31,18 +34,27 @@ const Project = () => {
                                     alt={item.title}
                                     height={280}
                                     width={700}
-                                    className="object-cover h-[180px] md:h-[200px] lg:h-[280px] w-full"
+                                    className="object-cover h-[180px] md:h-[200px] lg:h-[280px] w-full rounded-2xl"
                                 />
                                 <span className="absolute left-0 -bottom-1 w-full h-0 bg-secondary group-hover:h-1 transition-all duration-300"></span>
 
-                                <div className="hidden opacity-0 absolute inset-0 group-hover:opacity-100 group-hover:flex transition-all duration-300">
-                                    <div className="relative w-full inset-0 flex items-end justify-center gap-5 mb-20">
-                                        <button className="w-[160px] py-3 px-8 rounded-[99px] border border-gray-400 cursor-pointer hover:bg-gray-400 hover:text-black shadow-2xl">
-                                            Github
-                                        </button>
-                                        <button className="w-[160px] py-3 px-8 rounded-[99px] border border-gray-400 cursor-pointer hover:bg-gray-400 hover:text-black">
-                                            Live Demo
-                                        </button>
+                                <div className="h-0 opacity-0 absolute bottom-0 left-0 right-0 group-hover:opacity-100 group-hover:h-[60%] group-hover:bg-gray-800 group-hover:flex transition-all duration-300 overflow-hidden">
+                                    <div className="p-3 flex flex-col justify-between">
+                                        <p className="text-white80 mb-4 px-4 mt-2">
+                                            {item.desc}
+                                        </p>
+                                        <div className="relative w-full inset-0 flex items-end justify-center gap-5 mb-20">
+                                            <button className="w-[160px] py-3 px-8 rounded-[99px] border border-gray-400 cursor-pointer hover:bg-gray-400 hover:text-black shadow-2xl">
+                                                <Link href={item.pathGithub}>
+                                                    Github
+                                                </Link>
+                                            </button>
+                                            <button className="w-[160px] py-3 px-8 rounded-[99px] border border-gray-400 cursor-pointer hover:bg-gray-400 hover:text-black">
+                                                <Link href={item.pathLiveDemo}>
+                                                    Live Demo
+                                                </Link>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
