@@ -10,12 +10,12 @@ export const socialMediaData: SocialMedia[] = [
     {
         name: 'Facebook',
         icon: Facebook,
-        path: '#!',
+        path: 'https://www.facebook.com/lehoai.nam.3367',
     },
     {
         name: 'Instagram',
         icon: Instagram,
-        path: '#!',
+        path: 'https://www.instagram.com',
     },
     {
         name: 'Linkedin',

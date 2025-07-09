@@ -119,6 +119,8 @@ const Contact = () => {
                             >
                                 <Link
                                     href={item.path}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="flex items-center gap-1.5 text-sm font-bold text-white80"
                                 >
                                     <item.icon className="mb-0.5" />
