@@ -26,7 +26,7 @@ const Hero = () => {
                     <p className="font-bold text-white80 mb-3 md:mb-7">
                         Hello, I&apos;m
                     </p>
-                    <h1 className="text-4xl md:text-6xl font-semibold">
+                    <h1 className="text-white text-4xl md:text-6xl font-semibold">
                         HoaiNam Le
                     </h1>
                     <p className="relative inline-block text-2xl md:text-3xl text-white/70 font-semibold tracking-widest mt-3 md:mt-6 pb-3">
@@ -37,7 +37,7 @@ const Hero = () => {
             <div className="absolute z-10 bottom-14">
                 <a
                     href="#project"
-                    className="flex items-center gap-3 font-semibold"
+                    className="flex items-center gap-3 font-semibold text-white"
                 >
                     <span className="h-7 w-7 bg-secondary flex items-center justify-center">
                         <ArrowDown />

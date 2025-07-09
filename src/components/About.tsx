@@ -37,9 +37,16 @@ const About = () => {
                             professional developer and contribute to real-world
                             projects.
                         </p>
-                        <button className="mt-5 md:mt-7 p-3 md:p-4 px-5 md:px-7 text-nowrap bg-secondary font-semibold tracking-wider cursor-pointer">
-                            Download CV
-                        </button>
+                        <div className="mt-10">
+                            <a
+                                href="/files/CV.pdf"
+                                download="HoaiNamLe-cv.pdf"
+                                aria-label="Tải xuống CV của HoaiNamLe"
+                                className="mt-5 md:mt-7 p-3 md:p-4 px-5 md:px-7 text-nowrap bg-secondary font-semibold tracking-wider cursor-pointer"
+                            >
+                                Download CV
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -61,7 +68,9 @@ const About = () => {
                                     width={30}
                                     height={50}
                                 />
-                                <p className="mt-3 text-center">{item.name}</p>
+                                <p className="mt-3 text-center text-white/60">
+                                    {item.name}
+                                </p>
                             </li>
                         ))}
                         <li className="flex flex-col items-center justify-end hover:-translate-y-2 transition-all duration-300 cursor-pointer">
@@ -72,7 +81,9 @@ const About = () => {
                                 height={100}
                                 style={{ height: 'auto' }}
                             />
-                            <p className="mt-3 text-center">Next JS</p>
+                            <p className="mt-3 text-center text-white/60">
+                                Next JS
+                            </p>
                         </li>
                     </ul>
                 </div>

@@ -20,23 +20,29 @@ const Project = () => {
                                 data-aos="zoom-in"
                                 className="relative bg-primary p-6 md:p-10 flex flex-col cursor-pointer hover:-translate-y-2 transition-all duration-300 group"
                             >
-                                <h3 className="text-2xl md:text-3xl mb-2">
+                                <h3 className="text-2xl md:text-3xl mb-2 text-white">
                                     {item.title}
                                 </h3>
-                                <p className="mb-4 text-lg">
+                                <p className="mb-4 text-lg text-white/60">
                                     Project {item.id}
                                 </p>
                                 <ArrowRight
                                     className="absolute top-10 right-5 text-secondary"
                                     size={32}
                                 />
-                                <Image
-                                    src={item.image}
-                                    alt={item.title}
-                                    height={280}
-                                    width={700}
-                                    className="object-cover h-[180px] md:h-[200px] lg:h-[280px] w-full rounded-2xl"
-                                />
+                                <Link
+                                    href={item.pathLiveDemo}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Image
+                                        src={item.image}
+                                        alt={item.title}
+                                        height={280}
+                                        width={700}
+                                        className="object-cover h-[180px] md:h-[200px] lg:h-[280px] w-full rounded-2xl"
+                                    />
+                                </Link>
                                 <span className="absolute left-0 -bottom-1 w-full h-0 bg-secondary group-hover:h-1 transition-all duration-300"></span>
 
                                 <div className="h-0 opacity-0 absolute bottom-0 left-0 right-0 group-hover:opacity-100 group-hover:h-[60%] group-hover:bg-gray-800 group-hover:flex transition-all duration-300 overflow-hidden">

@@ -47,7 +47,9 @@ const Header = () => {
                     className="flex justify-between items-center px-4"
                 >
                     <h3 className="font-semibold">
-                        <a href={'#home'}>HoaiNam Le</a>
+                        <a href={'#home'} className="text-white">
+                            HoaiNam Le
+                        </a>
                     </h3>
 
                     <nav className="hidden md:block">
@@ -78,14 +80,14 @@ const Header = () => {
 
                     {/* Menu Icon Mobile */}
                     <span className="md:hidden">
-                        <AlignLeft onClick={() => setIsOpenMenu(true)} />
+                        <AlignLeft
+                            onClick={() => setIsOpenMenu(true)}
+                            color="white"
+                        />
                     </span>
-                    <MobileMenu
-                        isOpenMenu={isOpenMenu}
-                        onCloseMenu={setIsOpenMenu}
-                    />
                 </div>
             </Container>
+            <MobileMenu isOpenMenu={isOpenMenu} onCloseMenu={setIsOpenMenu} />
         </header>
     );
 };
