@@ -42,7 +42,7 @@ const About = () => {
                                 href="/files/CV.pdf"
                                 download="HoaiNamLe-cv.pdf"
                                 aria-label="Tải xuống CV của HoaiNamLe"
-                                className="mt-5 md:mt-7 p-3 md:p-4 px-5 md:px-7 text-nowrap bg-secondary font-semibold tracking-wider cursor-pointer"
+                                className="mt-5 md:mt-7 p-3 md:p-4 px-5 md:px-7 text-white text-nowrap bg-secondary font-semibold tracking-wider cursor-pointer"
                             >
                                 Download CV
                             </a>
