@@ -22,8 +22,9 @@ export const projectsData: ProjectData[] = [
         desc: 'Restaurant Booking là một trang web nhà hàng cho phép người dùng đặt bàn và đặt hàng thực phẩm trực tuyến với thiết kế responsive, tương thích trên mọi thiết bị. Được xây dựng bằng Next.js và Tailwind CSS, dự án tích hợp API từ JSON Server để quản lý dữ liệu động về thực đơn và đặt bàn, mang lại trải nghiệm người dùng mượt mà và hiệu suất cao.',
         image: '/images/work-2.png',
         pathGithub: 'https://github.com/HoainamLe42/restaurant-web',
-        pathLiveDemo:
-            'https://restaurant-web-git-main-hoainamle99s-projects.vercel.app',
+        // pathLiveDemo:
+        //     'https://restaurant-web-git-main-hoainamle99s-projects.vercel.app',
+        pathLiveDemo: 'https://jzfzs9cq-3000.asse.devtunnels.ms',
     },
     {
         id: 3,
