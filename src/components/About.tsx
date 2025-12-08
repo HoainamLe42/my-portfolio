@@ -12,7 +12,7 @@ const About = () => {
             <Container>
                 <div
                     data-aos="zoom-in"
-                    className="grid grid-cols-1 md:grid-cols-2 items-center px-10"
+                    className="grid grid-cols-1 md:grid-cols-2 items-center px-12"
                 >
                     <div className="relative z-10 md:mb-16 drop-shadow-md mx-auto">
                         <Image
@@ -30,19 +30,28 @@ const About = () => {
                             About Me
                             <span className="absolute left-1/2 -translate-x-1/2 md:translate-x-0 md:left-0 bottom-0 w-[40px] md:w-[30%] h-[2px] bg-white80"></span>
                         </h4>
-                        <p className="mt-6 md:mt-8 text-white/70 leading-relaxed w-full text-center md:text-left md:max-w-[82%]">
-                            I&apos;m a beginner Frontend Developer with a strong
+                        <p className="mt-6 md:mt-8 text-white/70 leading-relaxed w-full text-center md:text-left">
+                            {/* I&apos;m a beginner Frontend Developer with a strong
                             passion for building user-friendly and visually
                             appealing web applications. My goal is to become a
                             professional developer and contribute to real-world
-                            projects.
+                            projects. */}
+                            Enthusiastic and fast-learning Frontend Developer
+                            Intern with a strong foundational understanding of
+                            HTML, CSS/SCSS, JavaScript, React.js, TypeScript,
+                            and Tailwind CSS. Passionate about building clean,
+                            responsive user interfaces and continuously
+                            improving coding skills through personal projects
+                            and self-learning. I am highly motivated, adaptable,
+                            and eager to contribute to team tasks while growing
+                            into a professional frontend developer.
                         </p>
                         <div className="mt-10">
                             <a
                                 href="/files/CV.pdf"
                                 download="HoaiNamLe-cv.pdf"
                                 aria-label="Tải xuống CV của HoaiNamLe"
-                                className="mt-5 md:mt-7 p-3 md:p-4 px-5 md:px-7 text-white text-nowrap bg-secondary font-semibold tracking-wider cursor-pointer"
+                                className="mt-5 md:mt-7 p-3 md:p-4 px-5 md:px-7 text-white text-nowrap bg-secondary font-semibold tracking-wider cursor-pointer rounded-sm"
                             >
                                 Download CV
                             </a>

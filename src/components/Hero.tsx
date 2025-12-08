@@ -30,7 +30,7 @@ const Hero = () => {
                         HoaiNam Le
                     </h1>
                     <p className="relative inline-block text-2xl md:text-3xl text-white/70 font-semibold tracking-widest mt-3 md:mt-6 pb-3">
-                        Frontend Intern
+                        Frontend Developer Intern
                     </p>
                 </div>
             </div>

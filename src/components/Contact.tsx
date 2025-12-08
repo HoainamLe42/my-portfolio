@@ -104,7 +104,7 @@ const Contact = () => {
                         <button
                             type="submit"
                             disabled={!isValid()}
-                            className={`w-[60%] md:w-[45%] text-white mx-auto mt-4 md:mt-7 p-4 px-7 bg-secondary text-nowrap font-semibold tracking-wider cursor-pointer disabled:opacity-90`}
+                            className={`w-[60%] md:w-[45%] text-white mx-auto mt-4 md:mt-7 p-4 px-7 bg-secondary text-nowrap font-semibold tracking-wider cursor-pointer disabled:opacity-90 rounded-sm`}
                         >
                             {isSubmitting ? 'Sending...' : 'Send Message'}
                         </button>

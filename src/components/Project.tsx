@@ -18,14 +18,25 @@ const Project = () => {
                             <li
                                 key={item.id}
                                 data-aos="zoom-in"
-                                className="relative bg-primary p-6 md:p-10 flex flex-col cursor-pointer hover:-translate-y-2 transition-all duration-300 group"
+                                className="relative bg-primary p-6 md:p-10 flex flex-col cursor-pointer hover:-translate-y-2 transition-all duration-300 group rounded-t-2xl"
                             >
                                 <h3 className="text-2xl md:text-3xl mb-2 text-white">
                                     {item.title}
                                 </h3>
-                                <p className="mb-4 text-lg text-white/60">
-                                    Project {item.id}
-                                </p>
+                                <div className="mb-4 text-lg text-white/60 flex gap-2">
+                                    {item.skills.map((skill) => (
+                                        <Image
+                                            key={skill.id}
+                                            src={skill.image}
+                                            alt={skill.name}
+                                            title={skill.name}
+                                            height={20}
+                                            width={20}
+                                            className="inline-block mr-2"
+                                            loading="lazy"
+                                        />
+                                    ))}
+                                </div>
                                 <ArrowRight
                                     className="absolute top-10 right-5 text-secondary"
                                     size={32}

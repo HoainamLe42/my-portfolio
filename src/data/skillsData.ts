@@ -13,4 +13,5 @@ export const skillsData: Skill[] = [
     { id: 6, name: 'Github', image: '/images/skills/github.svg' },
     { id: 7, name: 'Tailwind CSS', image: '/images/skills/tailwind-css.svg' },
     { id: 8, name: 'SASS', image: '/images/skills/sass.svg' },
+    { id: 9, name: 'Vite', image: '/images/skills/vite.svg' },
 ];
