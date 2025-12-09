@@ -48,8 +48,8 @@ const About = () => {
                         </p>
                         <div className="mt-10">
                             <a
-                                href="/files/CV.pdf"
-                                download="HoaiNamLe-cv.pdf"
+                                href="/files/hoainamle-cv.pdf"
+                                download="hoainamle-cv.pdf"
                                 aria-label="Tải xuống CV của HoaiNamLe"
                                 className="mt-5 md:mt-7 p-3 md:p-4 px-5 md:px-7 text-white text-nowrap bg-secondary font-semibold tracking-wider cursor-pointer rounded-sm"
                             >
