@@ -96,6 +96,35 @@ const About = () => {
                         </li>
                     </ul>
                 </div>
+
+                {/* Languages */}
+                <div data-aos="zoom-in-up" className="px-10">
+                    <h4 className="relative font-bold tracking-wide text-white80 inline-block pb-1 text-lg mt-10">
+                        Languages
+                        <span className="absolute left-0 bottom-0 w-[25%] h-[2px] bg-white80"></span>
+                    </h4>
+                    <h3></h3>
+                    <ul className="flex mt-4 flex-col">
+                        <li className="px-1.5 lg:px-8 mb-2">
+                            <span className="inline-block border p-1 rounded-md">
+                                Vietnamese
+                            </span>{' '}
+                            – Native
+                        </li>
+                        <li className="px-1.5 lg:px-8 mb-2">
+                            <span className="inline-block border p-1 rounded-md">
+                                English
+                            </span>{' '}
+                            – Intermediate (Technical)
+                        </li>
+                        <li className="px-1.5 lg:px-8 mb-2">
+                            <span className="inline-block border p-1 rounded-md">
+                                日本語
+                            </span>{' '}
+                            – N4 level (JLPT prep)
+                        </li>
+                    </ul>
+                </div>
             </Container>
         </section>
     );
