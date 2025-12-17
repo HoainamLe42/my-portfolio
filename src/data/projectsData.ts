@@ -49,7 +49,7 @@ export const projectsData: ProjectData[] = [
         pathGithub: 'https://github.com/HoainamLe42/restaurant-web',
         // pathLiveDemo:
         //     'https://restaurant-web-git-main-hoainamle99s-projects.vercel.app',
-        pathLiveDemo: 'https://jzfzs9cq-3000.asse.devtunnels.ms/',
+        pathLiveDemo: 'https://restaurant-web-chi-red.vercel.app/',
     },
     {
         id: 3,
