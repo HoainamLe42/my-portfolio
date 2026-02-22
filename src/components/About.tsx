@@ -36,20 +36,19 @@ const About = () => {
                             appealing web applications. My goal is to become a
                             professional developer and contribute to real-world
                             projects. */}
-                            Enthusiastic and fast-learning Frontend Developer
-                            Intern with a strong foundational understanding of
-                            HTML, CSS/SCSS, JavaScript, React.js, TypeScript,
-                            and Tailwind CSS. Passionate about building clean,
-                            responsive user interfaces and continuously
-                            improving coding skills through personal projects
-                            and self-learning. I am highly motivated, adaptable,
-                            and eager to contribute to team tasks while growing
-                            into a professional frontend developer.
+                            I am a QC Automation Intern with a solid foundation
+                            in Manual Testing and a technical background in
+                            Frontend development (ReactJS). My goal is to grow
+                            into a strong QC Tester, starting with Manual
+                            Testing and gradually advancing to Automation
+                            Testing using JavaScript/TypeScript-based
+                            frameworks, while contributing high-quality testing
+                            to real-world projects.
                         </p>
                         <div className="mt-10">
                             <a
-                                href="/files/hoainamle-cv.pdf"
-                                download="hoainamle-cv.pdf"
+                                href="/files/AutomationQC_LeHoaiNam.pdf"
+                                download="AutomationQC_LeHoaiNam.pdf"
                                 aria-label="Tải xuống CV của HoaiNamLe"
                                 className="mt-5 md:mt-7 p-3 md:p-4 px-5 md:px-7 text-white text-nowrap bg-secondary font-semibold tracking-wider cursor-pointer rounded-sm"
                             >
@@ -92,6 +91,16 @@ const About = () => {
                             />
                             <p className="mt-3 text-center text-white/60">
                                 Next JS
+                            </p>
+                        </li>
+
+                        <li className="mt-3 flex items-center justify-center hover:-translate-y-2 transition-all duration-300 cursor-pointer">
+                            <p className="p-2 px-3 text-white/60">SQL Server</p>
+                        </li>
+
+                        <li className="mt-3 flex items-center justify-center hover:-translate-y-2 transition-all duration-300 cursor-pointer">
+                            <p className="p-2 px-3 text-white/60 sm:text-nowrap">
+                                Manual Testing
                             </p>
                         </li>
                     </ul>

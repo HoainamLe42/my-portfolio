@@ -29,8 +29,8 @@ const Hero = () => {
                     <h1 className="text-white text-4xl md:text-6xl font-semibold">
                         HoaiNam Le
                     </h1>
-                    <p className="relative inline-block text-2xl md:text-3xl text-white/70 font-semibold tracking-widest mt-3 md:mt-6 pb-3">
-                        Frontend Developer
+                    <p className="relative inline-block text-2xl md:text-3xl text-white/70 font-semibold mt-3 md:mt-6 pb-3">
+                        Automation Quality Engineer
                     </p>
                 </div>
             </div>
